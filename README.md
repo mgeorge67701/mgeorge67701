@@ -16,8 +16,7 @@ Skilled in fostering collaboration across teams while maintaining focus on strat
 
 <a href="https://www.credly.com/badges/12a3ccb7-7595-4bfc-96d6-bb0c4399562f"><img src="https://images.credly.com/size/340x340/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png" alt="CCNA Certification" width="100"></a>
 <a href="https://www.credly.com/org/hashicorp/badge/hashicorp-certified-terraform-associate-002"><img src="https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png" alt="Terraform Associate 002" width="100"></a>
-<a href="https://www.credly.com/org/hashicorp/badge/hashicorp-certified-terraform-associate-003" alt="Terraform Associate 003" width="100"></a>
-
+<img src="/tf-03.png" alt="Metrics" width="100%">
 
 ## GitHub Metrics
 
