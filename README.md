@@ -2,7 +2,7 @@
 
 ## Repository Transition Notice
 
-**Important:** My old GitHub repository has been transitioned to an organization. This is now my personal repository where I'll be maintaining my individual projects and contributions.
+> **Note:** *My old GitHub repository has been transitioned to an organization. This is now my personal repository where I'll be maintaining my individual projects and contributions.*
 
 ## Professional Summary
 
