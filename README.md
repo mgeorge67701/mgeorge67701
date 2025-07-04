@@ -14,21 +14,8 @@ Skilled in fostering collaboration across teams while maintaining focus on strat
 
 ## Certifications
 
-<img src="https://www.credly.com/badges/12a3ccb7-7595-4bfc-96d6-bb0c4399562f" alt="CCNA Certification" width="150">
+[![CCNA Certification](https://images.credly.com/size/340x340/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png)](https://www.credly.com/badges/12a3ccb7-7595-4bfc-96d6-bb0c4399562f)
 
-
-
-## GitHub Stats
-
-The metrics displayed above show my current GitHub activity, including:
-- Contribution patterns
-- Language usage
-- Repository statistics
-- Coding activity trends
-
----
-
-Feel free to explore my repositories and connect with me for collaboration opportunities!
 
 ## GitHub Metrics
 
