@@ -13,9 +13,7 @@ Combines deep technical expertise with strong leadership abilities to transform 
 Skilled in fostering collaboration across teams while maintaining focus on strategic business objectives and technological innovation. Passionate about delivering solutions that not only meet current needs but anticipate future challenges and opportunities.
 
 ## Certifications
-<img src="/tf-03.png" alt="Metrics" width="25%">
-<img src="/tf-02.png" alt="Metrics" width="50%">
-<img src="/ccna.png" alt="Metrics" width="100%">
+<img src="/tf-03.png" alt="Terraform 003" width="25%"> <img src="/tf-02.png" alt="Terraform 002" width="25%"> <img src="/ccna.png" alt="CCNA" width="25%">
 
 
 ## GitHub Metrics
