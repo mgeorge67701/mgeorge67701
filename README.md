@@ -1,8 +1,8 @@
 # Mohan George - Personal GitHub Repository
 
-## About This Repository
+## Repository Transition Notice
 
-Welcome to my personal GitHub repository! This serves as my main profile repository showcasing my GitHub activity and contributions.
+**Important:** My old GitHub repository has been transitioned to an organization. This is now my personal repository where I'll be maintaining my individual projects and contributions.
 
 ## Professional Summary
 
@@ -14,11 +14,9 @@ Skilled in fostering collaboration across teams while maintaining focus on strat
 
 ## Certifications
 
-<img src="https://images.credly.com/size/680x680/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/cisco_ccna_R_26S.png" alt="CCNA Certification" width="150">
+<img src="https://www.credly.com/badges/12a3ccb7-7595-4bfc-96d6-bb0c4399562f" alt="CCNA Certification" width="150">
 
-## Repository Transition Notice
 
-**Important:** My old GitHub repository has been transitioned to an organization. This is now my personal repository where I'll be maintaining my individual projects and contributions.
 
 ## GitHub Stats
 
