@@ -2,8 +2,8 @@
 name: Base Metrics
 
 on:
-  # Schedule updates (each day)
-  schedule: [{cron: "* 0 * * *"}]
+  # Schedule updates (each day at midnight)
+  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
@@ -11,6 +11,8 @@ on:
 jobs:
   base-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -22,4 +24,4 @@ jobs:
           template: classic
           filename: metrics-base.svg
           base: header, community, repositories, metadata
-          config_timezone: America/New_York
+          config_timezone: Europe/London
