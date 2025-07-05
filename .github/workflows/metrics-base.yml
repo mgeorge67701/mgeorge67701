@@ -25,3 +25,9 @@ jobs:
           filename: metrics-base.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
+          # Scan all repositories for comprehensive activity
+          repositories_batch: 100
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
+          # Include commits from all your email addresses
+          commits_authoring: georgmohan@gmail.com, mohan.george@bottomline.com, georgemohan@gmail.com
