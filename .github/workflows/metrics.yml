@@ -26,6 +26,6 @@ jobs:
           # Include commits from all your email addresses
           commits_authoring: georgmohan@gmail.com, mohan.george@bottomline.com, georgemohan@gmail.com
           # Only show basic metrics summary (no detailed activity)
-          base: header, activity, community, repositories, metadata
+          base: header, community, repositories, metadata
           # Disable activity plugin to avoid showing individual commits
           plugin_activity: no
