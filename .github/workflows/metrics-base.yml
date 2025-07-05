@@ -23,5 +23,5 @@ jobs:
           user: mgeorge67701
           template: classic
           filename: metrics-base.svg
-          base: header, community, repositories, metadata
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
