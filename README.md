@@ -8,5 +8,6 @@
 <img src="/tf-03.png" alt="Terraform 003" width="25%"> <img src="/tf-02.png" alt="Terraform 002" width="25%"> <img src="/ccna.png" alt="CCNA" width="25%">
 
 ## GitHub Metrics
-
-<img src="/github-metrics.svg" alt="Metrics" width="100%">
+<img src="metrics-base.svg" align="left" width="47.5%">
+<img src="metrics-achievements.svg" align="left" width="47.5%">
+<img src="metrics-languages.svg" align="center" width="100%">
