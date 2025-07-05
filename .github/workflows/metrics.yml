@@ -20,15 +20,15 @@ jobs:
           # Target your GitHub username to get stats from all repositories
           user: mgeorge67701
           # Include all repositories (public and private if token has access)
-          repositories_batch: 100
-          # Count commits from all repositories, not just current one
+          repositories_batch: 1000
           repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
           # Include commits from all time periods
           commits_authoring: georgmohan@gmail.com, mohan.george@bottomline.com, georgemohan@gmail.com
           # Base sections to include comprehensive stats
           base: header, activity, community, repositories, metadata
           # Enable plugins for better commit tracking
           plugin_activity: yes
-          plugin_activity_limit: 50
-          plugin_activity_days: 2
+          plugin_activity_limit: 1000
+          plugin_activity_days: 365
           plugin_activity_filter: all
