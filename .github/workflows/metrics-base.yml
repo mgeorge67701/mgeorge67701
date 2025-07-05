@@ -11,6 +11,8 @@ on:
 jobs:
   base-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
     permissions:
       contents: write
     steps:
@@ -25,9 +27,9 @@ jobs:
           filename: metrics-base.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
-          # Scan all repositories for comprehensive activity
-          repositories_batch: 100
+          # Simplified configuration for stability
+          repositories_batch: 50
           repositories_forks: yes
-          repositories_affiliations: owner, collaborator, organization_member
-          # Include commits from all your email addresses
-          commits_authoring: georgmohan@gmail.com, mohan.george@bottomline.com, georgemohan@gmail.com
+          # Add timeout settings for reliability
+          config_timeout: 30
+          retries: 3
