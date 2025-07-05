@@ -23,12 +23,9 @@ jobs:
           repositories_batch: 1000
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
-          # Include commits from all time periods
+          # Include commits from all your email addresses
           commits_authoring: georgmohan@gmail.com, mohan.george@bottomline.com, georgemohan@gmail.com
-          # Base sections to include comprehensive stats
+          # Only show basic metrics summary (no detailed activity)
           base: header, activity, community, repositories, metadata
-          # Enable plugins for better commit tracking
-          plugin_activity: yes
-          plugin_activity_limit: 1000
-          plugin_activity_days: 365
-          plugin_activity_filter: all
+          # Disable activity plugin to avoid showing individual commits
+          plugin_activity: no
