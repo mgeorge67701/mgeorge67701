@@ -17,3 +17,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          # Include all repositories you have access to
+          user: mgeorge67701
+          # Include commits from all repositories
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          # Include contribution stats from all repositories
+          plugin_lines: yes
