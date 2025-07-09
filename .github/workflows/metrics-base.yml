@@ -2,8 +2,8 @@
 name: Base Metrics
 
 on:
-  # Schedule updates (each day at midnight)
-  schedule: [{cron: "0 0 * * *"}]
+  # Schedule updates (every hour)
+  schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
