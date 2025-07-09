@@ -31,13 +31,16 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: |
-            mgeorge67701/mgeorge67701
             */.github
+          
+          # Ensure comprehensive commit tracking
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
           
           # Followup plugin for commit statistics and repository health
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           plugin_followup_indepth: yes
+          plugin_followup_archived: yes
           
           # Stargazers plugin for repository popularity
           plugin_stargazers: yes
@@ -93,25 +96,27 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           
-          # Activity plugin for contribution patterns
+          # Activity plugin for contribution patterns - Enhanced for commit tracking
           plugin_activity: yes
-          plugin_activity_days: 30
+          plugin_activity_days: 365
           plugin_activity_filter: all
-          plugin_activity_limit: 10
-          plugin_activity_load: 300
+          plugin_activity_limit: 50
+          plugin_activity_load: 500
           plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
           
           # Calendar plugin for contribution calendar
           plugin_calendar: yes
           plugin_calendar_limit: 0
           
-          # Habits plugin for coding habits analysis
+          # Habits plugin for coding habits analysis - Extended for comprehensive tracking
           plugin_habits: yes
-          plugin_habits_days: 30
+          plugin_habits_days: 365
           plugin_habits_facts: yes
-          plugin_habits_from: 1000
+          plugin_habits_from: 2000
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
+          plugin_habits_charts: yes
           
           # Notable plugin for notable contributions
           plugin_notable: yes

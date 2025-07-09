@@ -11,11 +11,12 @@
 
 ### 📊 Enhanced Profile Statistics
 This repository uses an enhanced GitHub Actions workflow that generates comprehensive metrics including:
-- **Total commit count** across all repositories (including forks and collaborations)
+- **Total commit count** across all repositories (including forks, collaborations, and profile repo)
+- **365-day activity analysis** with detailed commit tracking
 - **Language usage statistics** with recent activity trends
 - **Achievement tracking** and notable contributions
 - **Contribution calendar** with full-year view
-- **Coding habits analysis** and time patterns
+- **Coding habits analysis** and time patterns over extended periods
 - **Repository insights** including stargazers, traffic, and collaboration data
 - **Lines of code statistics** and project analysis
 - **Interaction metrics** for issues, PRs, and reactions
@@ -25,8 +26,10 @@ This repository uses an enhanced GitHub Actions workflow that generates comprehe
 ### 🔧 Workflow Features
 The enhanced metrics workflow (`/.github/workflows/metrics-base.yml`) includes:
 - Analysis of up to 200 repositories at once
-- Support for owner, collaborator, and organization repositories
-- Comprehensive plugin suite for detailed insights
+- Support for owner, collaborator, and organization repositories  
+- **Comprehensive commit tracking** from all affiliated repositories
+- **Extended time periods** (365 days) for accurate historical data
+- **No repository exclusions** to ensure complete commit counting
 - Automatic daily updates at midnight UTC
 - Manual trigger capability for instant updates
 
