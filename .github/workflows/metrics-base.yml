@@ -26,9 +26,9 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
           
-          # # Repository settings for comprehensive analysis
-          # repositories_batch: 200
-          # repositories_forks: yes
+          # Repository settings for comprehensive analysis
+          repositories_batch: 200
+          repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           
           # Languages plugin for basic language statistics
